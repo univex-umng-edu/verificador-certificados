@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Verificador De Certificados</title>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    .container {
+        width: 100%;
+        background-color: white;
+        border: 1px solid #333;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+    .title-area {
+        width: 98%;
+        margin: 5px auto;
+        border: 1px solid #ccc;
+        background-color: #f5f5f5;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .title {
+        font-size: 38px;
+        color: blue;
+        opacity: 0.2;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0;
+    }
+    .download-area {
+        width: 98%;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+        background-color: #f5f5f5;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+    .download-button {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        width: 95%;
+        padding: 8px 0;
+        text-decoration: underline;
+        font-size: 13px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+    }
+    .scroll-bar {
+        background-color: #ccc;
+        height: 8px;
+        width: 95%;
+        margin: 10px auto;
+        border-radius: 5px;
+        position: relative;
+    }
+    .scroll-bar::after {
+        content: '';
+        background-color: #888;
+        height: 100%;
+        width: 80%;
+        display: block;
+        border-radius: 5px;
+        margin: auto;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title-area">
+        <div class="title">Verificador de certificados:12a04c5b9</div>
+    </div>
+
+    <div class="download-area">
+        <fieldset>
+            <a href="12a04c5b9674030381406200475.pdf" class="download-button" download>Descargar Certificado</a>
+        </fieldset>
+    </div>
+
+    <div class="scroll-bar"></div>
+</div>
+
+</body>
+</html>
